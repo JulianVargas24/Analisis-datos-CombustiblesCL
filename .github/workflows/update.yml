@@ -2,7 +2,7 @@ name: Update FuelWatch
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # corre cada 2 minutos (TEST)
+    - cron: "30 12 * * 3"   # Miércoles 12:30 UTC (~09:30 CL en verano, ~08:30 en invierno)
   workflow_dispatch:
 
 permissions:
