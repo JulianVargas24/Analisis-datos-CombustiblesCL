@@ -2,7 +2,7 @@ name: Update FuelWatch
 
 on:
   schedule:
-    - cron: "30 12 * * 3"   # miércoles 12:30 UTC (~09:30 Chile)
+    - cron: "52 01 23 10 *"   # miércoles 12:30 UTC (~09:30 Chile)
   workflow_dispatch:
 
 permissions:
